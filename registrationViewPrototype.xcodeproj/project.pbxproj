@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2E6DB61999174700B62C98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E6DB51999174700B62C98 /* main.m */; };
+		BE2E6DB91999174700B62C98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E6DB81999174700B62C98 /* AppDelegate.m */; };
+		BE2E6DBC1999174700B62C98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E6DBB1999174700B62C98 /* ViewController.m */; };
+		BE2E6DBF1999174700B62C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2E6DBD1999174700B62C98 /* Main.storyboard */; };
+		BE2E6DC11999174700B62C98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2E6DC01999174700B62C98 /* Images.xcassets */; };
+		BE2E6DCD1999174700B62C98 /* registrationViewPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E6DCC1999174700B62C98 /* registrationViewPrototypeTests.m */; };
+		BEB7965B1A12C16700969F77 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB7965A1A12C16700969F77 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2E6DC71999174700B62C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2E6DA81999174700B62C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2E6DAF1999174700B62C98;
+			remoteInfo = registrationViewPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2E6DB01999174700B62C98 /* registrationViewPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = registrationViewPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2E6DB41999174700B62C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2E6DB51999174700B62C98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE2E6DB71999174700B62C98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE2E6DB81999174700B62C98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE2E6DBA1999174700B62C98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE2E6DBB1999174700B62C98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE2E6DBE1999174700B62C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2E6DC01999174700B62C98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE2E6DC61999174700B62C98 /* registrationViewPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = registrationViewPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2E6DCB1999174700B62C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2E6DCC1999174700B62C98 /* registrationViewPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registrationViewPrototypeTests.m; sourceTree = "<group>"; };
+		BEB796591A12C16700969F77 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BEB7965A1A12C16700969F77 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2E6DAD1999174700B62C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2E6DC31999174700B62C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2E6DA71999174700B62C98 = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DB21999174700B62C98 /* registrationViewPrototype */,
+				BE2E6DC91999174700B62C98 /* registrationViewPrototypeTests */,
+				BE2E6DB11999174700B62C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2E6DB11999174700B62C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DB01999174700B62C98 /* registrationViewPrototype.app */,
+				BE2E6DC61999174700B62C98 /* registrationViewPrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2E6DB21999174700B62C98 /* registrationViewPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DB71999174700B62C98 /* AppDelegate.h */,
+				BE2E6DB81999174700B62C98 /* AppDelegate.m */,
+				BE2E6DBA1999174700B62C98 /* ViewController.h */,
+				BE2E6DBB1999174700B62C98 /* ViewController.m */,
+				BE2E6DBD1999174700B62C98 /* Main.storyboard */,
+				BE2E6DC01999174700B62C98 /* Images.xcassets */,
+				BE2E6DB31999174700B62C98 /* Supporting Files */,
+				BEB796591A12C16700969F77 /* LoginViewController.h */,
+				BEB7965A1A12C16700969F77 /* LoginViewController.m */,
+			);
+			path = registrationViewPrototype;
+			sourceTree = "<group>";
+		};
+		BE2E6DB31999174700B62C98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DB41999174700B62C98 /* Info.plist */,
+				BE2E6DB51999174700B62C98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2E6DC91999174700B62C98 /* registrationViewPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DCC1999174700B62C98 /* registrationViewPrototypeTests.m */,
+				BE2E6DCA1999174700B62C98 /* Supporting Files */,
+			);
+			path = registrationViewPrototypeTests;
+			sourceTree = "<group>";
+		};
+		BE2E6DCA1999174700B62C98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E6DCB1999174700B62C98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2E6DAF1999174700B62C98 /* registrationViewPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2E6DD01999174700B62C98 /* Build configuration list for PBXNativeTarget "registrationViewPrototype" */;
+			buildPhases = (
+				BE2E6DAC1999174700B62C98 /* Sources */,
+				BE2E6DAD1999174700B62C98 /* Frameworks */,
+				BE2E6DAE1999174700B62C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = registrationViewPrototype;
+			productName = registrationViewPrototype;
+			productReference = BE2E6DB01999174700B62C98 /* registrationViewPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2E6DC51999174700B62C98 /* registrationViewPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2E6DD31999174700B62C98 /* Build configuration list for PBXNativeTarget "registrationViewPrototypeTests" */;
+			buildPhases = (
+				BE2E6DC21999174700B62C98 /* Sources */,
+				BE2E6DC31999174700B62C98 /* Frameworks */,
+				BE2E6DC41999174700B62C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2E6DC81999174700B62C98 /* PBXTargetDependency */,
+			);
+			name = registrationViewPrototypeTests;
+			productName = registrationViewPrototypeTests;
+			productReference = BE2E6DC61999174700B62C98 /* registrationViewPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2E6DA81999174700B62C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = fakeancient;
+				TargetAttributes = {
+					BE2E6DAF1999174700B62C98 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BE2E6DC51999174700B62C98 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BE2E6DAF1999174700B62C98;
+					};
+				};
+			};
+			buildConfigurationList = BE2E6DAB1999174700B62C98 /* Build configuration list for PBXProject "registrationViewPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2E6DA71999174700B62C98;
+			productRefGroup = BE2E6DB11999174700B62C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2E6DAF1999174700B62C98 /* registrationViewPrototype */,
+				BE2E6DC51999174700B62C98 /* registrationViewPrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2E6DAE1999174700B62C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2E6DBF1999174700B62C98 /* Main.storyboard in Resources */,
+				BE2E6DC11999174700B62C98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2E6DC41999174700B62C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2E6DAC1999174700B62C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB7965B1A12C16700969F77 /* LoginViewController.m in Sources */,
+				BE2E6DBC1999174700B62C98 /* ViewController.m in Sources */,
+				BE2E6DB91999174700B62C98 /* AppDelegate.m in Sources */,
+				BE2E6DB61999174700B62C98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2E6DC21999174700B62C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2E6DCD1999174700B62C98 /* registrationViewPrototypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2E6DC81999174700B62C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2E6DAF1999174700B62C98 /* registrationViewPrototype */;
+			targetProxy = BE2E6DC71999174700B62C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2E6DBD1999174700B62C98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2E6DBE1999174700B62C98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2E6DCE1999174700B62C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE2E6DCF1999174700B62C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2E6DD11999174700B62C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = registrationViewPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE2E6DD21999174700B62C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = registrationViewPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE2E6DD41999174700B62C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/registrationViewPrototype.app/registrationViewPrototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = registrationViewPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BE2E6DD51999174700B62C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/registrationViewPrototype.app/registrationViewPrototype";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = registrationViewPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2E6DAB1999174700B62C98 /* Build configuration list for PBXProject "registrationViewPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2E6DCE1999174700B62C98 /* Debug */,
+				BE2E6DCF1999174700B62C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2E6DD01999174700B62C98 /* Build configuration list for PBXNativeTarget "registrationViewPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2E6DD11999174700B62C98 /* Debug */,
+				BE2E6DD21999174700B62C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2E6DD31999174700B62C98 /* Build configuration list for PBXNativeTarget "registrationViewPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2E6DD41999174700B62C98 /* Debug */,
+				BE2E6DD51999174700B62C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2E6DA81999174700B62C98 /* Project object */;
+}
